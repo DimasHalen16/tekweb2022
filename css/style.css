@@ -1,0 +1,46 @@
+body {
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #392855, #949aa8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #875e5e, #875d5d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.row {
+    margin-top: 250px;
+    height: 100vh;
+}
+.image {
+    position: absolute;
+    top: 204px;
+    right: 106px;
+    z-index: -1;
+}
+.image img {
+    width: 350px;
+}
+
+.sosmed ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+li.instagram {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+li.twitter {
+    background: #00acee;
+}
+li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.card {
+    margin: 0px 15px;
+}
+.article {
+    margin-bottom: 100px;
+}
